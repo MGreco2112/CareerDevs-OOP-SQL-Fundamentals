@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.abstraction.Cavishan;
+import com.company.abstraction.Dog;
 import com.company.classes.Class1;
 import com.company.classes.Class2;
 import com.company.inheritance.Mouse1;
@@ -23,14 +25,20 @@ public class Main {
 //
 //        b.sing();
 
-        Class1 class1 = new Class1();
+//        Class1 class1 = new Class1();
+//
+//        Class2 newClass = new Class2();
+//
+//        System.out.println(class1.x);
+//
+//        System.out.println(newClass.y);
+//
+//        class1.printHi();
 
-        Class2 newClass = new Class2();
+        Dog holly = new Cavishan();
 
-        System.out.println(class1.x);
+        holly.barkMethod();
 
-        System.out.println(newClass.y);
-
-        class1.printHi();
+        holly.poop();
     }
 }
